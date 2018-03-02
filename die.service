@@ -1,0 +1,11 @@
+[Unit]
+Description=Die discord bot server.
+After=network.target
+
+[Service]
+Type=simple
+ExecStartPre=./home/zoidmania/die/venv/bin/activate
+ExecStart=/home/zoidmania/die/venv/bin/python /home/zoidmania/die/die.py
+
+[Install]
+WantedBy=multi-user.target

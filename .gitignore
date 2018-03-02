@@ -1,0 +1,9 @@
+# Die config
+*.ini
+
+# Compiled Python Files
+*.pyc
+
+# Virtualenv
+venv/*
+
