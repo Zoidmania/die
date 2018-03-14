@@ -6,6 +6,7 @@ After=network.target
 Type=simple
 ExecStartPre=./home/zoidmania/die/venv/bin/activate
 ExecStart=/home/zoidmania/die/venv/bin/python /home/zoidmania/die/die.py
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
