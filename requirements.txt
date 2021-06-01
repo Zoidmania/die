@@ -12,6 +12,6 @@ python-RIBBIT==1.0.2.dev0
 requests==2.18.4
 semidbm==0.5.1
 six==1.10.0
-urllib3==1.22
+urllib3==1.26.5
 websockets==3.4
 ws4py==0.4.3
